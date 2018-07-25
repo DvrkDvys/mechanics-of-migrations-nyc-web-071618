@@ -5,4 +5,6 @@ task :console do
   require 'irb'
   ARGV.clear
   IRB.start
+  Artist
+  Artist.column_names
 end
